@@ -1,7 +1,6 @@
 package SRP;
-
 public class Student {
-    private String name; // student's name
+    private String name;
 
     public Student(String name) {
         this.name = name;
