@@ -1,0 +1,17 @@
+package SRP;
+
+public class StudentViolate {
+    private String name;
+
+    public StudentViolate(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void printStudent() {
+        System.out.println("SRP.Student Name: " + name);
+    }
+}
